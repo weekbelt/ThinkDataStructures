@@ -20,23 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af5d49f-a5c2-40e3-91a7-b27378d76444" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/ListClientExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/ListClientExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allendowney/thinkdast/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../solutions/src/resources/en.wikipedia.org/wiki/Java_(Programming_Language)" beforeDir="false" afterPath="$PROJECT_DIR$/../../solutions/src/resources/en.wikipedia.org/wiki/Java_(Programming_Language)" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +48,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest">
+  <component name="RunManager" selected="JUnit.MyLinkedListTest">
     <configuration name="ListClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.ListClientExample" />
       <module name="code_main" />
@@ -135,6 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allendowney.thinkdast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -156,9 +158,11 @@
       <item itemvalue="JUnit.ListClientExampleTest" />
       <item itemvalue="JUnit.MyArrayListTest" />
       <item itemvalue="JUnit.MyArrayListTest.testSet" />
+      <item itemvalue="JUnit.MyLinkedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLinkedListTest" />
         <item itemvalue="JUnit.MyArrayListTest" />
         <item itemvalue="JUnit.MyArrayListTest.testSet" />
         <item itemvalue="JUnit.ListClientExampleTest" />
@@ -176,7 +180,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524898475722</updated>
-      <workItem from="1594177630811" duration="3555000" />
+      <workItem from="1594177630811" duration="3588000" />
+      <workItem from="1594249197330" duration="1856000" />
     </task>
     <servers />
   </component>
@@ -193,31 +198,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="798" height="274" key="GridCell.Tab.0.bottom" timestamp="1594180659416">
+    <state width="798" height="274" key="GridCell.Tab.0.bottom" timestamp="1594249954579">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="274" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594180659416" />
-    <state width="798" height="274" key="GridCell.Tab.0.center" timestamp="1594180659415">
+    <state width="798" height="274" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594249954579" />
+    <state width="798" height="274" key="GridCell.Tab.0.center" timestamp="1594249954578">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="274" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594180659415" />
-    <state width="798" height="274" key="GridCell.Tab.0.left" timestamp="1594180659415">
+    <state width="798" height="274" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594249954578" />
+    <state width="798" height="274" key="GridCell.Tab.0.left" timestamp="1594249954577">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="274" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594180659415" />
-    <state width="798" height="274" key="GridCell.Tab.0.right" timestamp="1594180659416">
+    <state width="798" height="274" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594249954577" />
+    <state width="798" height="274" key="GridCell.Tab.0.right" timestamp="1594249954578">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="274" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594180659416" />
+    <state width="798" height="274" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594249954578" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1594178921087">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1594178921087" />
-    <state x="130" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1594180991872">
+    <state x="130" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1594250475763">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="130" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1594180991872" />
+    <state x="130" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1594250475763" />
   </component>
 </project>
